@@ -118,13 +118,7 @@ RUN mkdir -p /home/ubuntu/git && \
 ### for arm-typed-robot on gazebo
 RUN mkdir -p /home/ubuntu/git && \
     cd /home/ubuntu/git && \
-    git clone https://github.com/wadaru/amr && \
-    # cd /home/ubuntu/colcon_ws/src && \
-    # ln -s /home/ubuntu/git/amr/arm_typed_robot . && \
-    # colcon build && \
-    # echo "cd ~/git/amr/arm_typed_robot/urdf" >> /home/ubuntu/.bashrc && \
-    # echo "gz sim arm_robot.urdf" >> /home/ubuntu/.bashrc
+    git clone https://github.com/wadaru/arm_typed_robot && \
     mkdir -p /home/ubuntu/Desktop && \
-    ln -s /home/ubuntu/git/amr/arm_typed_robot/docker/arm_typed_robot.desktop /home/ubuntu/Desktop/
-
+    ln -s /home/ubuntu/git/arm_typed_robot/docker/arm_typed_robot.desktop /home/ubuntu/Desktop/
 
