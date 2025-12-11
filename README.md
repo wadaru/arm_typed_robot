@@ -19,3 +19,5 @@ You can control the robot with the following command:
 
 Joint number is from 1 to 4. 
 関節番号（jointX）は，1から4です．
+
+<a href="https://github.com/wadaru/arm_typed_robot/blob/main/Screen%20Recording%202025-12-11%20at%2018.30.59.mov">movie</a>
