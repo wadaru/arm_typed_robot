@@ -6,7 +6,8 @@ Gazebo用のアームロボットのファイルです．
 
 # How to Use
 Run Docker and access "http://localhost:6080" with your browser.
-Docker で起動して，ブラウザ経由で「http://localhost:6080」にアクセスすると接続できます．
+
+Docker で起動して，ブラウザ経由で「http://localhost:6080 」にアクセスすると接続できます．
 > docker compose up
 
 Run the desktop icon "Gazebo(Arm Typed Robot)".
