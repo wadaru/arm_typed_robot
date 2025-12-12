@@ -122,3 +122,9 @@ RUN mkdir -p /home/ubuntu/git && \
     mkdir -p /home/ubuntu/Desktop && \
     ln -s /home/ubuntu/git/arm_typed_robot/docker/arm_typed_robot.desktop /home/ubuntu/Desktop/
 
+### for myPalletizer
+RUN cd /home/ubuntu/git && \
+    git clone  git clone https://github.com/elephantrobotics/mycobot_ros && \
+    cp ~/git/mycobot_ros/mycobot_description/urdf/mypalletizer_260_pi/*.dae /home/ubuntu/git/arm_typed_robot/urdf/ && \
+    ln -s /home/ubuntu/git/arm_typed_robot/docker/myPalletizer.desktop /home/ubuntu/Desktop/
+
