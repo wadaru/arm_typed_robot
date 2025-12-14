@@ -2,8 +2,8 @@
 Name=Gazebo(myPalletizer)
 Comment=run gazebo simulator with myPalletizer
 TryExec=terminator
-# Exec=sh -c 'source ~/colcon_ws/install/setup.bash && gz sim ~/git/arm_typed_robot/urdf/arm_robot.urdf'
-Exec=terminator -e "bash -c 'source ~/colcon_ws/install/setup.bash && gz sim ~/git/arm_typed_robot/urdf/myPalletizer_260_pi.urdf'"
+# Exec=sh -c 'source /opt/ros/jazzy/setup.bash && gz sim ~/git/arm_typed_robot/urdf/arm_robot.urdf'
+Exec=terminator -e "bash -c 'source /opt/ros/jazzy/setup.bash && gz sim ~/git/arm_typed_robot/urdf/mypalletizer_260_pi.urdf'"
 Icon=terminator
 Type=Application
 Categories=GNOME;GTK;Utility;TerminalEmulator;System;
@@ -13,5 +13,5 @@ X-Ayatana-Desktop-Shortcuts=NewWindow;
 Keywords=terminal;shell;prompt;command;commandline;
 [NewWindow Shortcut Group]
 Name=Open a New Window
-Exec="gz sim ~/git/arm_typed_robot/urdf/myPalletier_260_pi.urdf"
+Exec="gz sim ~/git/arm_typed_robot/urdf/mypalletier_260_pi.urdf"
 TargetEnvironment=Unity
